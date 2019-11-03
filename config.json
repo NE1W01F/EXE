@@ -1,0 +1,92 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "init": -1,
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "asm": true,
+        "argon2-impl": null,
+        "argon2": [0, 1, 2, 3],
+        "cn": [
+            [1, 0],
+            [1, 2]
+        ],
+        "cn-heavy": [
+            [1, 0]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 2],
+            [1, 1]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 1],
+            [2, 2],
+            [2, 3]
+        ],
+        "cn/gpu": [0, 1, 2, 3],
+        "rx": [0, 2],
+        "rx/arq": [0, 1, 2, 3],
+        "rx/wow": [0, 2, 1],
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "opencl": {
+        "enabled": true,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD"
+    },
+    "cuda": {
+        "enabled": true,
+        "loader": null,
+        "nvml": true
+    },
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "pool.hashvault.pro:443",
+            "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn",
+            "pass": "wolf",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": true,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "self-select": null
+        }
+    ],
+    "print-time": 60,
+    "health-print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null,
+    "watch": true
+}
