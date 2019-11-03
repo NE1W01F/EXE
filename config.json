@@ -69,8 +69,8 @@
         {
             "algo": null,
             "coin": null,
-            "url": "pool.hashvault.pro:443",
-            "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn",
+            "url": "pool.hashvault.pro:80",
+            "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn.wolf",
             "pass": "wolf",
             "rig-id": null,
             "nicehash": false,
