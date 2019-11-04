@@ -52,13 +52,13 @@
         "cn-lite/0": false
     },
     "opencl": {
-        "enabled": true,
+        "enabled": false,
         "cache": true,
         "loader": null,
         "platform": "AMD"
     },
     "cuda": {
-        "enabled": true,
+        "enabled": false,
         "loader": null,
         "nvml": true
     },
@@ -70,7 +70,7 @@
             "algo": null,
             "coin": null,
             "url": "pool.hashvault.pro:80",
-            "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn.wolf",
+            "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn.work",
             "pass": "wolf",
             "rig-id": null,
             "nicehash": false,
