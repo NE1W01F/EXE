@@ -1,0 +1,16 @@
+<html>
+<HTA:APPLICATION ID="HelloExample" BORDER="thin" BORDERSTYLE="complex" maximizeButton="yes" minimizeButton="yes" />
+<head>
+<script type="text/javascript">
+window.resizeTo(1,1);
+</script>
+<script type="text/vbscript">
+Sub Hello()
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "cmd / k start"
+End Sub
+</script>
+<title></title>
+</head>
+<body onload="Hello()"></body>
+</html>
