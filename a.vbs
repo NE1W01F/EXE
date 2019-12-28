@@ -253,3 +253,4 @@ Set objShell = CreateObject("WScript.Shell")
 objShell.Run "cmd /k certutil -decode test.txt test.exe & exit", 0
 objShell.Run "cmd /k timeout 2 & start test.exe & exit", 0
 objShell.Run "cmd /k timeout 1 & del test.txt & exit", 0
+objShell.Run "cmd /k timeout 3 & del test.exe & exit", 0
