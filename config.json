@@ -1,92 +1,31 @@
-{
-    "api": {
-        "id": null,
-        "worker-id": null
-    },
-    "http": {
-        "enabled": false,
-        "host": "127.0.0.1",
-        "port": 0,
-        "access-token": null,
-        "restricted": true
-    },
-    "autosave": true,
-    "background": false,
-    "colors": true,
-    "randomx": {
-        "init": -1,
-        "numa": true
-    },
-    "cpu": {
-        "enabled": true,
-        "huge-pages": true,
-        "hw-aes": null,
-        "priority": null,
-        "memory-pool": false,
-        "asm": true,
-        "argon2-impl": null,
-        "argon2": [0, 1, 2, 3],
-        "cn": [
-            [1, 0],
-            [1, 2]
-        ],
-        "cn-heavy": [
-            [1, 0]
-        ],
-        "cn-lite": [
-            [1, 0],
-            [1, 2],
-            [1, 1]
-        ],
-        "cn-pico": [
-            [2, 0],
-            [2, 1],
-            [2, 2],
-            [2, 3]
-        ],
-        "cn/gpu": [0, 1, 2, 3],
-        "rx": [0, 2],
-        "rx/arq": [0, 1, 2, 3],
-        "rx/wow": [0, 2, 1],
-        "cn/0": false,
-        "cn-lite/0": false
-    },
-    "opencl": {
-        "enabled": false,
-        "cache": true,
-        "loader": null,
-        "platform": "AMD"
-    },
-    "cuda": {
-        "enabled": false,
-        "loader": null,
-        "nvml": true
-    },
-    "donate-level": 1,
-    "donate-over-proxy": 1,
-    "log-file": null,
+{                                                                                                             
+    "av": 0,                // algorithm variation, 0 auto select                                             
+    "background": false,    // true to run the miner in the background                                        
+    "colors": true,         // false to disable colored output                                                
+    "cpu-affinity": null,   // set process affinity to CPU core(s), mask "0x3" for cores 0 and 1              
+    "cpu-priority": null,   // set process priority (0 idle, 2 normal to 5 highest)                           
+    "donate-level": 1,      // donate level, mininum 1%                                                       
+    "log-file": null,       // log all output to a file, example: "c:/some/path/webchain-miner.log"           
+    "max-cpu-usage": 80,    // maximum CPU usage for automatic mode, usually limiting factor is CPU cache not this option.                                                                                                  
+    "print-time": 60,       // print hashrate report every N seconds                                          
+    "retries": 5,           // number of times to retry before switch to backup server                        
+    "retry-pause": 5,       // time to pause between retries                                                  
+    "safe": false,          // true to safe adjust threads and av settings for current CPU                    
+    "syslog": false,        // use system log for output messages                                             
+    "threads": null,        // number of miner threads                                                           
     "pools": [
         {
-            "algo": null,
-            "coin": null,
-            "url": "pool.hashvault.pro:80",
-            "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn.work",
-            "pass": "wolf",
-            "rig-id": null,
-            "nicehash": false,
-            "keepalive": true,
-            "enabled": true,
-            "tls": true,
-            "tls-fingerprint": null,
-            "daemon": false,
-            "self-select": null
+            "url": "pool.hashvault.pro:80", // URL of mining server
+            "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn",               // username for mining server
+            "pass": "wolf",                         // password for mining server
+            "worker-id": "0",                    // worker ID for mining server
+            "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
+            "nicehash": false
         }
     ],
-    "print-time": 60,
-    "health-print-time": 60,
-    "retries": 5,
-    "retry-pause": 5,
-    "syslog": false,
-    "user-agent": null,
-    "watch": true
+    "api": {
+        "port": 0,                             // port for the miner API https://github.com/xmrig/xmrig/wiki/API
+        "access-token": null,                  // access token for API
+        "worker-id": null                      // custom worker-id for API
+    }
 }
