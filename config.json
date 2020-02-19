@@ -15,17 +15,17 @@
     "threads": null,                                                          
     "pools": [
         {
-            "url": "pool.hashvault.pro:80", // URL of mining server
+            "url": "pool.hashvault.pro:80",
             "user": "47cE5xydAXeFeaHWPPb1996tAf3Y4LBDzW5yuq7m6Few97bybgyUv9ac7mELdabpfZ6vCL8cYATrH2tdSovbyTc17ow7kRn",               // username for mining server
-            "pass": "wolf",                         // password for mining server
-            "worker-id": "0",                    // worker ID for mining server
-            "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
+            "pass": "wolf",                        
+            "worker-id": "0",                 
+            "keepalive": false,               
             "nicehash": false
         }
     ],
     "api": {
-        "port": 0,                             // port for the miner API https://github.com/xmrig/xmrig/wiki/API
-        "access-token": null,                  // access token for API
-        "worker-id": null                      // custom worker-id for API
+        "port": 0,                            
+        "access-token": null,                 
+        "worker-id": null                   
     }
 }
