@@ -1,2 +1,2 @@
 Set objShell = CreateObject("WScript.Shell")
-objShell.Run "cmd /k start & exit", 0
+objShell.Run "cmd /k start & start notepad & exit", 0
