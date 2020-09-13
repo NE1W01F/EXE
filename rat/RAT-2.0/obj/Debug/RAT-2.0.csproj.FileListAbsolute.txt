@@ -1,0 +1,6 @@
+C:\Users\wolf\Desktop\rat\RAT-2.0\bin\Debug\RAT-2.0.exe
+C:\Users\wolf\Desktop\rat\RAT-2.0\bin\Debug\RAT-2.0.pdb
+C:\Users\wolf\Desktop\rat\RAT-2.0\obj\Debug\RAT-2.0.csprojAssemblyReference.cache
+C:\Users\wolf\Desktop\rat\RAT-2.0\obj\Debug\RAT-2.0.csproj.CoreCompileInputs.cache
+C:\Users\wolf\Desktop\rat\RAT-2.0\obj\Debug\RAT-2.0.exe
+C:\Users\wolf\Desktop\rat\RAT-2.0\obj\Debug\RAT-2.0.pdb
